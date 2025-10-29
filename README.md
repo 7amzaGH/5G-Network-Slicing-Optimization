@@ -18,7 +18,8 @@ The work was completed as part of my **Bachelor’s thesis in Computer Science**
 
 ## 📄 PDF Report
 
-👉 [Click here to view the full PDF on Google Drive]([https://drive.google.com/file/d/your_drive_file_id/view](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing))
+👉 [Click here to view the full PDF on Google Drive](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing)
+
 
 ### Example Code Snippet
 ```python
@@ -39,4 +40,5 @@ m.optimize()
 ## 📄 PDF Report
 
 👉 [Click here to view the full PDF on Google Drive]([https://drive.google.com/file/d/your_drive_file_id/view](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing))
+
 
