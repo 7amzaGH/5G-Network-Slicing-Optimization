@@ -1,5 +1,5 @@
 # Code Documentation
-
+```
 ## 📁 Repository Structure
 ├── code/
 │   ├── dynamic_lp.py          # PuLP implementation
@@ -8,7 +8,8 @@
 │   ├── solver_example.ipynb   # Jupyter notebook demo
 │   ├── README.md              # Code documentation
 │   └── requirements.txt       
-
+```
+```
 ## Files Overview
 
 - **`dynamic_lp.py`**: Main Python implementation using PuLP
