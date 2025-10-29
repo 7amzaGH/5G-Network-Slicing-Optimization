@@ -102,7 +102,7 @@ jupyter notebook code/notebooks/smart_city.ipynb
 - 24 time slots (hourly demands)
 - Dynamic traffic patterns (rush hour peaks, night-time lows)
 - Total: 33.7 Gbps optimized allocation
-```
+
 
 ---
 
@@ -232,5 +232,6 @@ See full thesis for detailed scenarios.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
