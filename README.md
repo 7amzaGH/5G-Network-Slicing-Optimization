@@ -31,3 +31,7 @@ m = gp.Model("MaximizeBandwidth")
 x = m.addVars(S, L, T, vtype=GRB.BINARY, name="x")
 m.setObjective(gp.quicksum(x[s, l, t] for s in S for l in L for t in T), GRB.MAXIMIZE)
 m.optimize()
+
+## 📄 PDF Report
+
+👉 [Click here to view the full PDF on Google Drive]([https://drive.google.com/file/d/your_drive_file_id/view](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing))
