@@ -1,5 +1,5 @@
 """
-dynamic_lp.py
+simple_demo.py
 Author: Hamza Ghitri
 Description:
     Integer Linear Programming model for dynamic resource optimization in 5G network slicing.
