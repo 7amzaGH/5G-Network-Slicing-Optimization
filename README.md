@@ -66,13 +66,6 @@ jupyter notebook code/solver_example.ipynb
 ampl code/model.mod code/data.dat
 ```
 
-## 📊 Results
-
-The model optimizes bandwidth allocation achieving:
-- **Total Bandwidth:** 370 Mbps
-- **Fairness:** Each slice guaranteed minimum allocation
-- **Efficiency:** 92% link utilization
-
 ![Optimization Results](results/optimization_plot.png)
 
 ## 📄 PDF Report
@@ -97,7 +90,7 @@ For questions or collaboration:
 - Email: your.email@example.com
 
 ### Example Code Snippet
-Here's how the optimization model works:
+**Minimal demo** (3 slices, 2 links, 2 time slots):
 ```python
 import gurobipy as gp
 from gurobipy import GRB
@@ -119,9 +112,23 @@ m.setObjective(gp.quicksum(x[s, l, t] for s in S for l in L for t in T),
 m.optimize()
 print(f"Optimal bandwidth: {m.objVal} Mbps")
 ```
-**Output:**
-```
-Optimal bandwidth: 370.0 Mbps
-```
 
+## 📊 Results
 
+The model optimizes bandwidth allocation achieving:
+- **Total Bandwidth:** 370 Mbps
+- **Fairness:** Each slice guaranteed minimum allocation
+- **Efficiency:** 84% link utilization
+
+### Real-World Application
+The thesis demonstrates this model applied to:
+- **eMBB slices:** Video streaming (high bandwidth)
+- **uRLLC slices:** Autonomous vehicles (low latency)
+- **mMTC slices:** IoT sensors (massive connections)
+
+With dynamic demands varying across 24-hour periods.
+See full thesis for detailed scenarios.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
