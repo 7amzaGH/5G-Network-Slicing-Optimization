@@ -26,6 +26,19 @@
 This project explores **dynamic resource allocation in 5G network slicing**, focusing on optimizing bandwidth allocation using **Integer Linear Programming (ILP)**.  
 The work was completed as part of my **Bachelor’s thesis in Computer Science** at the **University of Ain Temouchent (2022/2023)**.
 
+### Real-World Application
+The thesis demonstrates this model applied to:
+- **eMBB slices:** Video streaming (high bandwidth)
+- **uRLLC slices:** Autonomous vehicles (low latency)
+- **mMTC slices:** IoT sensors (massive connections)
+
+With dynamic demands varying across 24-hour periods.
+See full thesis for detailed scenarios.
+
+## 📄 Full Thesis Report
+
+👉 [Click here to view the full PDF on Google Drive](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing)
+
 ### Objectives
 - Analyze 5G architecture, SDN, and NFV frameworks.
 - Develop an ILP model for dynamic and fair resource allocation.
@@ -143,10 +156,6 @@ ampl code/models/model.mod code/models/smart_city_data.dat
 
 ---
 
-## 📄 Full Thesis Report
-
-👉 [Click here to view the full PDF on Google Drive](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing)
-
 ## 🚀 Quick Code Preview
 
 **Simple optimization with Gurobi:**
@@ -189,18 +198,10 @@ For questions or collaboration:
 - GitHub: [@7amzaGH](https://github.com/7amzaGH)
 - Email: your.email@example.com
 
-### Real-World Application
-The thesis demonstrates this model applied to:
-- **eMBB slices:** Video streaming (high bandwidth)
-- **uRLLC slices:** Autonomous vehicles (low latency)
-- **mMTC slices:** IoT sensors (massive connections)
-
-With dynamic demands varying across 24-hour periods.
-See full thesis for detailed scenarios.
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
