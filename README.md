@@ -213,13 +213,6 @@ m.optimize()
 print(f"Optimal bandwidth: {m.objVal} Mbps")
 ```
 
-## 📊 Results
-
-The model optimizes bandwidth allocation achieving:
-- **Total Bandwidth:** 370 Mbps
-- **Fairness:** Each slice guaranteed minimum allocation
-- **Efficiency:** 84% link utilization
-
 ### Real-World Application
 The thesis demonstrates this model applied to:
 - **eMBB slices:** Video streaming (high bandwidth)
@@ -232,6 +225,7 @@ See full thesis for detailed scenarios.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
