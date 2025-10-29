@@ -29,10 +29,72 @@ The work was completed as part of my **Bachelor’s thesis in Computer Science**
 - **Optimization Techniques:** Linear Programming (LP), Integer Linear Programming (ILP)
 - **Libraries Used:** Gurobi, PuLP, NumPy
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/7amzaGH/5G-Network-Slicing-Optimization.git
+cd 5G-Network-Slicing-Optimization
+
+# Install dependencies
+cd code
+pip install -r requirements.txt
+
+# Run the model
+python dynamic_lp.py
+```
+
+## 💻 Usage
+
+### Option 1: Python (PuLP)
+```bash
+python code/dynamic_lp.py
+```
+
+### Option 2: Jupyter Notebook
+```bash
+jupyter notebook code/solver_example.ipynb
+```
+
+### Option 3: AMPL
+```bash
+ampl code/model.mod code/data.dat
+```
+
+## 📊 Results
+
+The model optimizes bandwidth allocation achieving:
+- **Total Bandwidth:** 370 Mbps
+- **Fairness:** Each slice guaranteed minimum allocation
+- **Efficiency:** 92% link utilization
+
+![Optimization Results](results/optimization_plot.png)
+
 ## 📄 PDF Report
 
 👉 [Click here to view the full PDF on Google Drive](https://drive.google.com/file/d/1zyUAntguo4mpcDOGxhDmdRMlg2pkiF0p/view?usp=sharing)
 
+## 👥 Authors
+
+- **Hamza Ghitri** - [GitHub](https://github.com/7amzaGH)
+- **Aya Boudaoud** - Co-author
+
+## 🙏 Acknowledgments
+
+Supervised by **Dr. Ali Benzerbadj**  
+University of Ain Temouchent Belhadj Bouchaib  
+Academic Year: 2022/2023
+
+## 📧 Contact
+
+For questions or collaboration:
+- GitHub: [@7amzaGH](https://github.com/7amzaGH)
+- Email: your.email@example.com
 
 ### Example Code Snippet
 Here's how the optimization model works:
@@ -61,4 +123,5 @@ print(f"Optimal bandwidth: {m.objVal} Mbps")
 ```
 Optimal bandwidth: 370.0 Mbps
 ```
+
 
