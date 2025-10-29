@@ -189,30 +189,6 @@ For questions or collaboration:
 - GitHub: [@7amzaGH](https://github.com/7amzaGH)
 - Email: your.email@example.com
 
-### Example Code Snippet
-**Minimal demo** (3 slices, 2 links, 2 time slots):
-```python
-import gurobipy as gp
-from gurobipy import GRB
-
-# Define network elements
-S = ['slice1', 'slice2', 'slice3']  # Network slices
-L = ['link1', 'link2']              # Physical links
-T = ['1', '2']                      # Time slots
-
-# Create optimization model
-m = gp.Model("5G_Network_Slicing")
-x = m.addVars(S, L, T, vtype=GRB.BINARY, name="allocation")
-
-# Objective: Maximize total bandwidth allocation
-m.setObjective(gp.quicksum(x[s, l, t] for s in S for l in L for t in T), 
-               GRB.MAXIMIZE)
-
-# Solve
-m.optimize()
-print(f"Optimal bandwidth: {m.objVal} Mbps")
-```
-
 ### Real-World Application
 The thesis demonstrates this model applied to:
 - **eMBB slices:** Video streaming (high bandwidth)
@@ -225,6 +201,7 @@ See full thesis for detailed scenarios.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
