@@ -59,7 +59,3 @@ m.optimize()
 print(f"Optimal bandwidth: {m.objVal} Mbps")
 ```
 
-**Output:**
-```
-Optimal bandwidth: 370.0 Mbps
-```
