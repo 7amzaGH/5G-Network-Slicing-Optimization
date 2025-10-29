@@ -2,12 +2,20 @@
 ```
 ## 📁 Repository Structure
 ├── code/
-│   ├── dynamic_lp.py          # PuLP implementation
-│   ├── model.mod              # AMPL model
-│   ├── data.dat               # AMPL data
-│   ├── solver_example.ipynb   # Jupyter notebook demo
-│   ├── README.md              # Code documentation
-│   └── requirements.txt       
+│   ├── examples/
+│   │   ├── simple_demo.py             # PuLP implementation (basic)
+│   │   ├── simple_demo_gurobi.py      # Gurobi implementation (basic)
+│   │   ├── smart_city.py              # Smart City scenario (24 hours)
+│   │   └── smart_city_gurobi.py       # Smart City with Gurobi (24 hours)
+│   ├── models/
+│   │   ├── model.mod                  # AMPL model definition
+│   │   ├── simple_data.dat            # Data for simple demo
+│   │   └── smart_city_data.dat        # Data for Smart City
+│   ├── notebooks/
+│   │   ├── simple_demo.ipynb          # Interactive simple demo
+│   │   └── smart_city.ipynb           # Interactive Smart City demo
+│   ├── requirements.txt               # Python dependencies
+│   └── README.md       
 ```
 ```
 ## Files Overview
