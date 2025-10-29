@@ -12,7 +12,6 @@
 ├── thesis.pdf
 └── README.md
 ```
-```
 
 ### Overview
 This project explores **dynamic resource allocation in 5G network slicing**, focusing on optimizing bandwidth allocation using **Integer Linear Programming (ILP)**.  
@@ -57,5 +56,9 @@ m.setObjective(gp.quicksum(x[s, l, t] for s in S for l in L for t in T),
 # Solve
 m.optimize()
 print(f"Optimal bandwidth: {m.objVal} Mbps")
+```
+**Output:**
+```
+Optimal bandwidth: 370.0 Mbps
 ```
 
