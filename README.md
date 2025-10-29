@@ -103,6 +103,9 @@ jupyter notebook code/notebooks/smart_city.ipynb
 - Dynamic traffic patterns (rush hour peaks, night-time lows)
 - Total: 33.7 Gbps optimized allocation
 ```
+
+---
+
 ## 📊 Results
 
 ### Simple Demo Results
@@ -127,6 +130,8 @@ The model successfully optimizes bandwidth allocation for a realistic smart city
 - **PublicSafety:** Guaranteed 50-89 Mbps across all time periods
 - **VideoSurveillance:** 180-270 Mbps with higher allocation during night hours
 
+---
+
 ## 🔧 AMPL Usage
 
 For those using AMPL modeling language:
@@ -135,6 +140,8 @@ ampl code/models/model.mod code/models/simple_data.dat
 # or
 ampl code/models/model.mod code/models/smart_city_data.dat
 ```
+
+---
 
 ## 📄 Full Thesis Report
 
@@ -225,4 +232,5 @@ See full thesis for detailed scenarios.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
