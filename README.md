@@ -57,7 +57,7 @@ See full thesis for detailed scenarios.
 - Python 3.8+
 - pip package manager
 - (Optional) Gurobi license for commercial solver
-- 
+
 ### Installation
 ```bash
 # Clone the repository
@@ -201,6 +201,7 @@ For questions or collaboration:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
