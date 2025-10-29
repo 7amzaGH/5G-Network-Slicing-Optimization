@@ -1,0 +1,17 @@
+# data.dat
+
+set Slices := slice1 slice2 slice3;
+set Links := link1 link2;
+set TimeSlots := 1 2;
+
+param capacity :=
+    link1 100
+    link2 120;
+
+param demand :=
+    [slice1, link1, 1] 50
+    [slice1, link2, 1] 40
+    [slice2, link1, 1] 30
+    [slice2, link2, 1] 60
+    [slice3, link1, 1] 40
+    [slice3, link2, 1] 50;
