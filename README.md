@@ -1,26 +1,28 @@
 # Resource Optimization in 5G Network Slicing 📡
 
-## 📁 Repository Structure
-```
-├── code/
-│   ├── examples/
-│   │   ├── simple_demo.py             # PuLP implementation (basic)
-│   │   ├── simple_demo_gurobi.py      # Gurobi implementation (basic)
-│   │   ├── smart_city.py              # Smart City scenario (24 hours)
-│   │   └── smart_city_gurobi.py       # Smart City with Gurobi (24 hours)
-│   ├── models/
-│   │   ├── model.mod                  # AMPL model definition
-│   │   ├── simple_data.dat            # Data for simple demo
-│   │   └── smart_city_data.dat        # Data for Smart City
-│   ├── notebooks/
-│   │   ├── simple_demo.ipynb          # Interactive simple demo
-│   │   └── smart_city.ipynb           # Interactive Smart City demo
-│   ├── requirements.txt               # Python dependencies
-│   └── README.md       
-├── thesis.pdf
-├── LICENSE
-└── README.md
-```
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Real-World Application](#real-world-application)
+- [Full Thesis Report](#-full-thesis-report)
+- [Objectives](#objectives)
+- [Implementation](#implementation)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#-usage)
+  - [Example 1: Simple Demo (Learning Example)](#example-1-simple-demo-learning-example)
+  - [Example 2: Smart City (Real-World Scenario)](#example-2-smart-city-real-world-scenario)
+- [Results](#-results)
+  - [Simple Demo Results](#simple-demo-results)
+  - [Smart City Scenario (24-Hour Simulation)](#smart-city-scenario-24-hour-simulation)
+- [AMPL Usage](#-ampl-usage)
+- [Quick Code Preview](#-quick-code-preview)
+- [Authors](#-authors)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
+- [License](#-license)
+
 
 ### Overview
 This project explores **dynamic resource allocation in 5G network slicing**, focusing on optimizing bandwidth allocation using **Integer Linear Programming (ILP)**.  
@@ -50,6 +52,28 @@ See full thesis for detailed scenarios.
 - **Simulation Tools:** Mininet, FlowVisor for SDN slicing
 - **Optimization Techniques:** Linear Programming (LP), Integer Linear Programming (ILP)
 - **Libraries Used:** Gurobi, PuLP, NumPy
+
+## 📁 Repository Structure
+```
+├── code/
+│   ├── examples/
+│   │   ├── simple_demo.py             # PuLP implementation (basic)
+│   │   ├── simple_demo_gurobi.py      # Gurobi implementation (basic)
+│   │   ├── smart_city.py              # Smart City scenario (24 hours)
+│   │   └── smart_city_gurobi.py       # Smart City with Gurobi (24 hours)
+│   ├── models/
+│   │   ├── model.mod                  # AMPL model definition
+│   │   ├── simple_data.dat            # Data for simple demo
+│   │   └── smart_city_data.dat        # Data for Smart City
+│   ├── notebooks/
+│   │   ├── simple_demo.ipynb          # Interactive simple demo
+│   │   └── smart_city.ipynb           # Interactive Smart City demo
+│   ├── requirements.txt               # Python dependencies
+│   └── README.md       
+├── thesis.pdf
+├── LICENSE
+└── README.md
+```
 
 ## 🚀 Getting Started
 
@@ -201,6 +225,7 @@ For questions or collaboration:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
