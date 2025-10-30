@@ -1,5 +1,10 @@
 # Resource Optimization in 5G Network Slicing 📡
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Gurobi](https://img.shields.io/badge/Gurobi-Optimizer-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Real-World Application](#real-world-application)
@@ -90,7 +95,7 @@ cd 5G-Network-Slicing-Optimization
 
 # Install dependencies
 cd code
-pip install -r requirements.txt
+pip install -r code/requirements.txt
 
 # Run the model
 python dynamic_lp.py
@@ -225,6 +230,7 @@ For questions or collaboration:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
