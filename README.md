@@ -196,11 +196,12 @@ Academic Year: 2022/2023
 
 For questions or collaboration:
 - GitHub: [@7amzaGH](https://github.com/7amzaGH)
-- Email: your.email@example.com
+- Email: ghitrihamza46@gmail.com
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
